@@ -123,7 +123,7 @@ To format root schema file:
 [npm-downloads-href]: https://npmjs.com/package/prisma-monorepo
 [license-src]: https://img.shields.io/npm/l/prisma-monorepo.svg?style=flat&colorA=18181B&colorB=4d53c1
 [license-href]: https://npmjs.com/package/prisma-monorepo
-[prisma-src]: https://img.shields.io/badge/Prisma-000000?style=flat&logo=Prisma&logoColor=white
+[prisma-src]: https://img.shields.io/badge/Prisma-4d53c1?style=flat&logo=Prisma&logoColor=white
 [prisma-href]: https://prisma.io
 
 # Warranty
