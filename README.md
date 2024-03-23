@@ -1,6 +1,6 @@
 # Prisma Monorepo
 
-CLI tool for using Prisma in monorepo.
+CLI tool for using [Prisma](https://prisma.io) in monorepo.
 
 It is merging entities (models/view/enums/types) from more schema files into one root schema file and allowing to regenerate only those imported entites when they change. This allows you to do manual changes in the root schema file like creating relations, putting another entities, etc.
 
