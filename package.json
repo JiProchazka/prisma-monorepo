@@ -1,0 +1,36 @@
+{
+  "name": "prisma-monorepo",
+  "version": "1.0.0",
+  "description": "CLI tool for using Prisma in monorepo",
+  "main": "index.js",
+  "bin": {
+    "prisma-monorepo": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "watch": "npx tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JiProchazka/prisma-monorepo.git"
+  },
+  "keywords": [
+    "prisma",
+    "monorepo"
+  ],
+  "author": "Jiří Procházka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JiProchazka/prisma-monorepo/issues"
+  },
+  "homepage": "https://github.com/JiProchazka/prisma-monorepo#readme",
+  "dependencies": {
+    "@mrleebo/prisma-ast": "^0.12.0",
+    "commander": "^12.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "typescript": "^5.4.3"
+  }
+}
