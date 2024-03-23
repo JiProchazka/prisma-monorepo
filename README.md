@@ -1,5 +1,10 @@
 # Prisma Monorepo
 
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![License][license-src]][license-href]
+[![Prisma][prisma-src]][prisma-href]
+
 CLI tool for using [Prisma](https://prisma.io) in monorepo.
 
 It is merging entities (models/view/enums/types) from more schema files into one root schema file and allowing to regenerate only those imported entites when they change. This allows you to do manual changes in the root schema file like creating relations, putting another entities, etc.
@@ -109,6 +114,17 @@ To merge files run:
 To format root schema file:
 
 `$ npx prisma-monorepo format`
+
+<!-- Badges -->
+
+[npm-version-src]: https://img.shields.io/npm/v/prisma-monorepo/latest.svg?style=flat&colorA=18181B&colorB=4d53c1
+[npm-version-href]: https://npmjs.com/package/prisma-monorepo
+[npm-downloads-src]: https://img.shields.io/npm/dm/prisma-monorepo.svg?style=flat&colorA=18181B&colorB=4d53c1
+[npm-downloads-href]: https://npmjs.com/package/prisma-monorepo
+[license-src]: https://img.shields.io/npm/l/prisma-monorepo.svg?style=flat&colorA=18181B&colorB=4d53c1
+[license-href]: https://npmjs.com/package/prisma-monorepo
+[prisma-src]: https://img.shields.io/badge/Prisma-000000?style=flat&logo=Prisma&logoColor=white
+[prisma-href]: https://prisma.io
 
 # Warranty
 
