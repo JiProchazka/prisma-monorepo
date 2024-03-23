@@ -1,6 +1,6 @@
 {
   "name": "prisma-monorepo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tool for using Prisma in monorepo",
   "main": "index.js",
   "bin": {

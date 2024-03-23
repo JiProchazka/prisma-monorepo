@@ -2,7 +2,7 @@ import { spawn } from "child_process"
 
 export function prismaFormat(schemaFile: string) {
   const otherCLICommand = "npx" // Replace with the name of the other CLI command
-  const args = ["prisma", "format", "--schama", schemaFile] // Replace with the arguments for the other CLI command
+  const args = ["prisma", "format", "--schema", schemaFile] // Replace with the arguments for the other CLI command
 
   const child = spawn(otherCLICommand, args, { stdio: "inherit" })
 
